@@ -37,8 +37,8 @@ cd IT23322912
 Replace `<your-repository-url>` with your actual GitHub repository URL.
 
 ```bash
-git clone https://github.com/VirajKosala/ITPM-assigment1
-cd IT23322912
+git clone https://github.com/VirajKosala/IT23322912-ITPM-Assignment-1.git
+cd IT23322912-ITPM-Assignment-1
 ```
 
 #### Option B: Navigate to Existing Project Directory
@@ -46,7 +46,7 @@ cd IT23322912
 If you already have the project on your local machine, simply navigate to the project directory:
 
 ```bash
-cd IT23322912
+cd IT23322912-ITPM-Assignment-1
 ```
 
 
@@ -64,13 +64,17 @@ This will install:
 - `@playwright/test` - The Playwright testing framework
 - `@types/node` - TypeScript type definitions for Node.js
 
-
-
-
+-install Playwright Test as a dev dependency
+```bash
+npm install -D @playwright/test
+```
+download Chromium, Firefox and WebKit browser binaries
+```bash
+npx playwright install
+```
 
 
 ## Running the Tests
-### Run All Tests
 To run all tests in the project:
 
 ```bash
@@ -86,6 +90,9 @@ npx playwright show-report
 ```
 
 This will open an interactive HTML report showing test results, timings, and trace information.
+
+
+
 
 
 
