@@ -1,5 +1,5 @@
 
-#singlish to sinhala Translation assigment using playwright 
+## singlish to sinhala Translation assigment using playwright 
 
 # IT23322912 - Playwright Test Suite
 
