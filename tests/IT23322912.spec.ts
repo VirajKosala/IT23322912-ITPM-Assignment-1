@@ -248,7 +248,7 @@ test.describe('Singlish to Sinhala Transliteration Tests - IT23322912', () => {
             await page.locator('div.bg-slate-50').first().waitFor({ state: 'visible' });
             await page.waitForTimeout(500);
             
-            await expect(page.locator('div.bg-slate-50').first()).toHaveText('මම දැන් යනවා', { timeout: 15000 });
+            await expect(page.locator('div.bg-slate-50').first()).toHaveText('මම දැන් යනවා');
         });
 
 
